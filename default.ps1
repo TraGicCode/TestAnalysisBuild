@@ -5,7 +5,7 @@ Properties {
     $Solution = "$BuildRoot\TestAnalysisBuild.sln"
     $NugetExe = "$BuildRoot\.nuget\NuGet.exe"
     $NugetPackagesDirectory = "$BuildRoot\packages"
-    $MSBuildExe = Find-MSBuild -Version "16.0"
+    $MSBuildExe = Find-MSBuild -Version "15.0"
 }
 
 # ========================================================================================
